@@ -13,7 +13,33 @@
       <h1>Web Design Cheat Sheet</h1>
     </div>
     <div id="content">
-
+      <div id="webpack">
+        <h2>Webpack Commands</h2>
+        <h3>npm install webpack -g</h3>
+        <p>Installs webpack globally</p>
+        <h3>npm install webpack --save</h3>
+        <p>Installs webpack in project</p>
+        <h3>webpack ./app.js app.bundle.js</h3>
+        <p>Compiles app.js into app.bundle.js</p>
+        <h2>Webpack Structure</h2>
+        <p>Original source files need to be stored in a folder called src</p>
+        <p>Production compiled files need to be stored in a fodler called dist</p>
+        <p>A webpack.config.js files needs to be created to map to these files correctly</p>
+      </div>
+      <div id="babel">
+        <h2>Babel Commands</h2>
+        <h3>npm install babel-core babel-preset-es2015 --save-dev</h3>
+        <p>Installs babel and es6 support to project</p>
+        <h3>npm install babel-loader --save-dev</h3>
+        <p>Installs babel loader</p>
+        <h3>npm install</h3>
+        <p>installs modules</p>
+        <h2>Babel Structure</h2>
+        <p>A .babelrc file needs to be created</p>
+        <p>Modules need to be linked to app.js</p>
+        <p>Use Webpack to compile the app.js</p>
+        <p>Link to the compiled file in the html document</p>
+      </div>
     </div>
   </div>
 </body>
