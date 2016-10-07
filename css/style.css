@@ -1,0 +1,15 @@
+#container{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content{
+  width: 50%;
+  display: inline-block;
+  border: 1px solid yellow;
+  height: 500px;
+  background-color: green;
+  box-sizing: border-box;
+  float:left;
+}
