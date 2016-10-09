@@ -41,7 +41,11 @@ hr{
 	border-radius: 100%;
 	width: 200px;
 	height: 200px;
+	margin-top: 10px;
 }
 .fa{
 	padding-right: 10px;
+}
+#wm-p{
+	margin-top: 10px
 }
