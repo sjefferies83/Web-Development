@@ -9,6 +9,14 @@ body{
 	font-family: 'Lato', sans-serif;
 	color: white;
 }
+.contact-links{
+	color: white;
+}
+.sub-content{
+	background-color: rgba(160, 155, 155, 0.5);
+	border: 1px solid rgba(239, 234, 234, 0.2);
+	border-radius: 1%;
+}
 #list{
 	list-style: none;
 }
