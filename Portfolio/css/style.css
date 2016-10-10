@@ -5,7 +5,7 @@ body{
 	padding-top: 70px;
 	background: url(https://hd.unsplash.com/photo-1462903004115-f8e27d6a3985);
 	background-size: cover;
-	background-position: center;
+	background-repeat: no-repeat;
 	font-family: 'Lato', sans-serif;
 	color: white;
 }
