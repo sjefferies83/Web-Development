@@ -5,7 +5,7 @@ body{
 	padding-top: 70px;
 	background: url(https://hd.unsplash.com/photo-1462903004115-f8e27d6a3985);
 	background-size: cover;
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	font-family: 'Lato', sans-serif;
 	color: white;
 }
@@ -16,6 +16,7 @@ body{
 	background-color: rgba(160, 155, 155, 0.5);
 	border: 1px solid rgba(239, 234, 234, 0.2);
 	border-radius: 1%;
+
 }
 #list{
 	list-style: none;
