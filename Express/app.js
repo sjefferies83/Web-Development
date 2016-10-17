@@ -14,6 +14,10 @@ var about = require('./routes/about');
 //assigns express to the app variable
 var app = express();
 
+//maps json file to a local(global) variable which can be called throughout the app
+app.locals.videodata = require("./videodata.json");
+
+
 // view engine setup, points to dir views are stored
 app.set('views', path.join(__dirname, 'views'));
 //sets what type of files the views are
