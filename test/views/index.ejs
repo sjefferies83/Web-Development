@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>My Demo</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+    <% include templates/header.ejs %>
     <div class="container">
-      <% include templates/header.ejs %>
-      <h1><%= title %></h1>
-      <p>Welcome to <%= title %></p>
+
+      <h1>My Node Demo</h1>
+      <p>Welcome to my node demo.</p>
     </div>
+    <script src="../js/custom.js"></script>
   </body>
 </html>
