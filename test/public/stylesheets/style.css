@@ -40,3 +40,12 @@ a:hover{
 .active{
     background-color:#4CAF50;
 }
+.jumbotron{
+    background-color: rgba(204,204,204, 0.5);
+    border-radius: 20px;
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    overflow: hidden;
+}
