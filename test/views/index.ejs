@@ -2,17 +2,40 @@
 <html>
   <head>
     <title>My Demo</title>
+    <link rel="stylesheet" href='/stylesheets/bootstrap.min.css'>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
     <% include templates/header.ejs %>
     <div class="container">
       <div class="jumbotron">
-        <h1>My Node Demo</h1>
-        <p>Welcome to my node demo.</p>
-        <p>I have set up this site to trial and learn the configuration of a node application and learn what all the modules do.</p>
+        <h1>Welcome To My Node Demo</h1>
+        <p>A demonstration of using <img src="../images/node.jpg"></img></p>
       </div>
+      <div class="row">
+        <div class="col-md-7">
+          <h3>Lorem ipsum dolor sit amet</h3>
+          <p>Sit ut habitasse placerat, fusce dictum massa ultricies, fusce ligula dolor vivamus est augue quis,
+            accumsan nullam faucibus. Libero qui maecenas porta, mollis lectus nunc massa, cras lectus tempor viverra tellus libero erat.
+            Ullamcorper ut volutpat enim nulla facilisis. Maecenas sed tellus vel non, dignissim nec turpis duis, libero elit nulla ligula.
+          </p>
+        </div>
+          <div class="col-md-3">
+              <h3>Imperdiet tincidunt vel</h3>
+              <p>Non ultricies aliquet facilisis, ultricies lectus facilisis mattis et leo, torquent congue.
+                  Est ultricies class rutrum. Mollis molestie fringilla vehicula aliquam donec suspendisse, etiam eu in.
+                  Orci mauris tristique rutrum ornare nullam, eget ut porta pulvinar nunc, fusce mollis ut tortor elementum, fermentum integer,
+                  elit vivamus nullam eget nibh nibh. Duis venenatis justo, pellentesque risus suspendisse, nonummy leo auctor,
+                  sagittis sed nec massa adipiscing sed faucibus. Magna varius consequat etiam condimentum non orci, etiam risus fringilla wisi nibh.
+              </p>
+          </div>
+      </div>
+
+
+
     </div>
+    <% include templates/footer.ejs %>
+    <script src="../js/bootstrap.min.js"></script>
     <script src="../js/custom.js"></script>
   </body>
 </html>

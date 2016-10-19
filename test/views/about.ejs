@@ -2,15 +2,31 @@
 <html>
 <head>
     <title>About Me</title>
+    <link rel="stylesheet" href='/stylesheets/bootstrap.min.css'>
     <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 <body>
-<% include templates/header.ejs %>
-<div class="container">
-
-    <h1>About Me</h1>
-    <p>Hello my name is Shaun Jefferies.</p>
-</div>
-<script src="../js/custom.js"></script>
+    <% include templates/header.ejs %>
+    <div class="container">
+        <h1>About Me</h1>
+        <p>Hello my name is Shaun Jefferies.</p>
+    <div class="row">
+        <div class="col-md-6">
+            <p>Sollicitudin accumsan vestibulum dignissim vestibulum sit, duis leo id dolor arcu tincidunt. Mauris et sit ligula.
+                Laoreet morbi duis velit cras, dolor integer tristique quam augue consectetuer nibh, dictum quam nullam vulputate aut lacinia,
+                aenean vitae fringilla.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <p>Consectetuer vel, libero posuere ut mattis tempus at, vel ligula dictum, purus turpis. Enim aliquam montes dis amet,
+                vestibulum amet risus sodales. In pellentesque, dictumst cras, eu sed porta urna sit lorem, gravida justo dolor venenatis,
+                lorem ultrices nunc justo nunc vitae. Ipsum lectus leo.
+            </p>
+        </div>
+    </div>
+    </div>
+    <% include templates/footer.ejs %>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/custom.js"></script>
 </body>
 </html>
